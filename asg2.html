@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blocky Animal</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="asg2.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Triangle.js"></script>
+
+    <br><br>
+    Camera Angle <input type="range" id="camera" min="-180" max="180" value="0" class="slider">
+    &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    All Animations: <button type="button" id ="animationAllOnButton">ON</button>
+    <button type="button" id ="animationAllOffButton">OFF</button>
+    <br>
+    Head <input type="range" id="headSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+    Head Animation: <button type="button" id ="animationHeadOnButton">ON</button>
+    <button type="button" id ="animationHeadOffButton">OFF</button>
+    <br>
+    Arms <input type="range" id="armSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+    Arm Animation: <button type="button" id ="animationArmOnButton">ON</button>
+    <button type="button" id ="animationArmOffButton">OFF</button>
+    <br>
+    Elbows <input type="range" id="elbowSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+    Elbow Animation: <button type="button" id ="animationElbowOnButton">ON</button>
+    <button type="button" id ="animationElbowOffButton">OFF</button>
+    <br>
+    Legs <input type="range" id="legSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+    Leg Animation: <button type="button" id ="animationLegOnButton">ON</button>
+    <button type="button" id ="animationLegOffButton">OFF</button>
+    <br>
+    Knees <input type="range" id="kneeSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+    Knee Animation: <button type="button" id ="animationKneeOnButton">ON</button>
+    <button type="button" id ="animationKneeOffButton">OFF</button>
+    <br>
+    Feet <input type="range" id="footSlide" min="-45" max="45" value="0" class="slider">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    Foot Animation: <button type="button" id ="animationFootOnButton">ON</button>
+    <button type="button" id ="animationFootOffButton">OFF</button>
+    <br>
+
+  </body>
+</html>
